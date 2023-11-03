@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>national</span>laboratories </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#research">research</a>
+        <a href="#partners">partners</a>
+        <a href="#staff">staff</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="https://accounts.google.com/o/oauth2/v2/auth?
+            scope=email%20profile&
+            access_type=offline&
+            response_type=code&
+            redirect_uri=YOUR_REDIRECT_URI&
+            client_id=YOUR_CLIENT_ID" class="btn"> google </a>
+            <a href="https://www.facebook.com/v12.0/dialog/oauth?
+            client_id=YOUR_APP_ID&
+            redirect_uri=YOUR_REDIRECT_URI&
+            scope=email" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">let us help you</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/lab-removebg-preview.png" alt="">
+
+    <a data-speed="7" href="services" class="btn home-parallax">explore the lab</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>2+</h3>
+            <p>branches</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>samples tested</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>320+</h3>
+            <p>happy clients</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>1500+</h3>
+            <p>clincal trials done</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> popular <span>services</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Clinical Trials</h3>
+                    <div class="price"> <span>view </span> all </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Preventive Trials
+                        <span class="fas fa-circle"></span> Treatment Trials
+                        <span class="fas fa-circle"></span> Diagonistic Trials
+                        <span class="fas fa-circle"></span> Screening Trials
+                    </p>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Immunology and Serology</h3>
+                    <div class="price"> <span>view</span> all </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Enzyme-Linked Immunosorbent Assay
+                        <span class="fas fa-circle"></span> HIV Testing
+                        <span class="fas fa-circle"></span> Hepatitis Panels
+                        <span class="fas fa-circle"></span> Allergy Testing
+                    </p>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Histopathology and Cytology</h3>
+                    <div class="price"> <span>view </span> all </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Tissue Biopsy Examination
+                        <span class="fas fa-circle"></span> Fine Needle Aspiration (FNA) Cytology
+                        <span class="fas fa-circle"></span> Frozen Section Analysis
+                        <span class="fas fa-circle"></span> Pap Smear Analysis
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Blood Banking and Transfusion Medicine</h3>
+                    <div class="price"> <span>view </span> all</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Blood Donation Screening
+                        <span class="fas fa-circle"></span> Blood Grouping and Crossmatching
+                        <span class="fas fa-circle"></span> Compatibility Testing
+                        <span class="fas fa-circle"></span> Component Preparation
+                    </p>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Endocrinology</h3>
+                    <div class="price"> <span>view</span> all</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Thyroid Function Tests 
+                        <span class="fas fa-circle"></span> Hormone Assays 
+                        <span class="fas fa-circle"></span> Diabetes-related Tests
+                        
+                    </p>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/clinical trails.jpeg" alt="">
+                <div class="content">
+                    <h3>Specialized Testing</h3>
+                    <div class="price"> <span>view </span> all </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> Flow Cytometry
+                        <span class="fas fa-circle"></span> Mass Spectrometry
+                        <span class="fas fa-circle"></span> Immunohistochemistry
+                        <span class="fas fa-circle"></span> Next-Generation Sequencing (NGS)
+                    </p>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="research" id="research">
+
+    <h1 class="heading"> our <span>research</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-external-link-alt"></i>
+            <h3>Flow Cytometry</h3>
+            <p>Flow cytometry is a sophisticated technique used in biology, immunology, and medicine to analyze and characterize cells based on their physical and chemical properties. By suspending cells in a fluid and passing them through a laser beam, flow cytometry measures the scattered and fluorescent light, providing valuable insights into cell structure, function, and behavior.</p>
+            <a href="https://my.clevelandclinic.org/health/diagnostics/22086-flow-cytometry" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-exclamation"></i>
+            <h3>Mass Spectrometry</h3>
+            <p>Mass spectrometry (MS) is a powerful analytical technique used to identify and quantify molecules in various samples, including chemicals, proteins, peptides, and metabolites. In mass spectrometry, molecules are ionized and then separated based on their mass-to-charge ratio.</p>
+            <a href="https://www.broadinstitute.org/technology-areas/what-mass-spectrometry" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heart"></i>
+            <h3>health insurance</h3>
+            <p>Health insurance is a crucial financial tool that helps individuals and families manage the costs of medical care.</p>
+            <a href="https://www.cignaglobal.com/?&utm_campaign=EN+-+G:+Health+Insurance+-+Mixed&gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_lbjCnZTLEgooDcoVJPQm3P1LUnwg6i6CNGydDC_GW-q_rDXhRi-dkaArgxEALw_wcB&gclsrc=aw.ds" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>treatment support</h3>
+            <p>See how we provide support after trials and treatment.</p>
+            <a href="#" class="btn"> coming soon</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="partners" id="partners">
+
+    <h1 class="heading"> <span>our</span> partners </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/bomaid.png" alt="">
+                <div class="content">
+                    <h3>bomaid</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">medical aid</div>
+                    <a href="https://www.bomaid.co.bw/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/botsogo.png" alt="">
+                <div class="content">
+                    <h3>botsogo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">medical aid</div>
+                    <a href="https://www.botsogohealthplan.co.bw/botsogo-goes-paperless/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/gph.jpeg" alt="">
+                <div class="content">
+                    <h3>Gaborone Private Hospital</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">hospital</div>
+                    <a href="https://www.lifehealthcare.co.za/hospitals/botswana/gaborone/life-gaborone-private-hospital/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sedilega.jpeg" alt="">
+                <div class="content">
+                    <h3>Sedilega</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">hospital</div>
+                    <a href="https://www.sidilegaprivatehospital.co.bw/" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/mri.jpeg" alt="">
+                 <div class="content">
+                     <h3>MRI</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">emergency</div>
+                     <a href="https://www.mri.co.bw/?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_nZnTTsgQy_faSC-ayviSnRlGMdB152t8GQNMGDSr6tZQzN3f5PFioaAuoNEALw_wcB" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/ub.png" alt="">
+                 <div class="content">
+                     <h3>University of Botswana</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Research Unit</div>
+                     <a href="https://www.ub.bw/" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/ihs.png" alt="">
+                 <div class="content">
+                     <h3>Institute Health Services Botswana</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">research</div>
+                     <a href="https://botswanahub.com/botswana-institute-of-health-sciences/" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/biust.png" alt="">
+                 <div class="content">
+                     <h3>BIUST</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">research</div>
+                     <a href="https://www.biust.ac.bw/" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<section class="newsletter">
+    
+    <h3>subscribe for latest updates</h3>
+    <p>catch the latest adavancements in the digital world of health.</p>
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+<section class="staff" id="staff">
+
+    <h1 class="heading"> our <span>staff</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="content">
+                    <p>lab technician</p>
+                    <h3>thato motlogelwa</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <div class="content">
+                    <p>lab technician</p>
+                    <h3>john cleao</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="content">
+                    <p>lab technician</p>
+                    <h3>robyn sins</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <div class="content">
+                    <p>biologist</p>
+                    <h3>mafoko kamanga</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <div class="content">
+                    <p>hermatologist</p>
+                    <h3>karabo atlega</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <div class="content">
+                    <p>lab technician</p>
+                    <h3>john smith</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.9300031290054!2d25.928336374578787!3d-24.660537578060346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5b9090b3499f%3A0x8773d291c3cef64c!2sUniversity%20of%20Botswana!5e0!3m2!1sen!2sbw!4v1699021940361!5m2!1sen!2sbw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="tel" placeholder="subject" class="box">
+            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="https://maps.app.goo.gl/atZVGesGYe1Y3cmS8"> <i class="fas fa-map-marker-alt"></i> university of botswana </a>
+            <a href="https://maps.app.goo.gl/3kY8EMMnkVreKVSN7"> <i class="fas fa-map-marker-alt"></i> airport junction </a>
+            
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#services"> <i class="fas fa-arrow-right"></i> servcies </a>
+            <a href="#research"> <i class="fas fa-arrow-right"></i> research </a>
+           
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +267 71904626 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> tmotlogelwa@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> university of botswana </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="https://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by mr. thato motlogelwa| all rights reserved </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
